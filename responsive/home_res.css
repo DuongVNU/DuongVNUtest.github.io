@@ -1,0 +1,39 @@
+@media screen and (max-width: 437px) {
+	.home_page .button_home {
+		position: relative;
+		left: 17vw;
+	}
+}
+
+@media screen and (min-width: 803px) {
+	.home_page .navbar-dark {
+		display: none;
+		background-color: rgba(127, 127, 127, 0.3);
+	}
+}
+
+@media screen and (max-width: 803px) {
+	.home_page .navbar-dark {
+		display: block;
+		position: absolute;
+		outline: none;
+	}
+	
+	.home_page .navbar-toggler {
+		outline: none;
+		border: none;
+		padding: 0;
+	}
+	
+	.home_page .navbar {
+		padding: 1vw 2.3vw;
+	}
+	
+	.home_page .navbar-toggler-icon {
+		width: 4vw;
+	}
+	
+	.justify-content-center {
+		display: none;
+	}
+}

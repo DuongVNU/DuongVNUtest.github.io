@@ -1,0 +1,46 @@
+@import "./../responsive/about_res.css";
+@font-face {
+	font-family: vani;
+	src: url(./../font/Vani.ttf);
+}
+
+.about_page {
+	text-align: center;
+	padding-top: 1px;
+}
+
+.about_page .title_about {
+	margin-top: 8vw;
+	font-family: vani, serif;
+	font-weight: bold;
+	height: 2vw;
+}
+
+.about_page .description_about {
+	font-family: 'Quattrocento Sans', sans-serif;
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 1vw;
+	margin-bottom: 6vw;;
+}
+
+.about_page .card_hair {
+	border: 1px solid #d5d3d3;
+	width: 100%;
+	height: 290px;
+	background-color: #f0f0f0;
+	padding: 0 10px;
+}
+.about_page .card_hair .icon {
+	position: relative;
+	bottom:50px
+}
+.about_page .card_hair .title {
+	font-family: vani,serif;
+	font-weight: bold;
+	font-size: 19px
+}
+.about_page .card_hair .description {
+	width: 100%;
+	font-size: 16px
+}

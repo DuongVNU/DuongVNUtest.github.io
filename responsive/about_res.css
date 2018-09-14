@@ -1,0 +1,102 @@
+/* For mobile phones: */
+@media screen and (max-width: 575px) {
+	.about_page .col-12 {
+		margin-bottom: 70px;
+	}
+	
+	.about_page .card_hair {
+		min-width: 100% !important;
+		margin-top: 25px;
+		
+	}
+	
+	.about_page .img_about {
+		width: 140px;
+	}
+	
+	.about_page .description_about {
+		font-size: 8px;
+	}
+	
+	.wrap .line {
+		margin-top: -7px;
+		font-family: 'Quattrocento Sans', sans-serif;
+		font-size: 10px;
+	}
+}
+
+/* For mobile tablet: */
+
+@media screen and (min-width: 576px) {
+	.about_page .card_hair {
+		min-width: 100% !important;
+	}
+	
+	.about_page .col-sm-6 {
+		margin-bottom: 70px;
+		margin-right: 0;
+	}
+	
+	.about_page .title_about {
+		font-size: 20px;
+	}
+	
+	.about_page .img_about {
+		width: 140px;
+	}
+	
+	.about_page .description_about {
+		font-size: 8px;
+	}
+	
+	.line {
+		margin-top: -13px;
+		font-family: 'Quattrocento Sans', sans-serif;
+	}
+}
+
+/*                    */
+@media screen and (min-width: 768px) {
+	.about_page .col-md-6 {
+		margin-bottom: 70px;
+	}
+	
+	.about_page .img_about {
+		width: 140px;
+	}
+	
+	.about_page .title_about {
+		font-size: 20px !important;
+	}
+	
+	.about_page .card_hair {
+		min-width: 100% !important;
+		height: 290px !important;
+	}
+	
+	.line {
+		margin-top: -13px;
+		font-family: 'Quattrocento Sans', sans-serif
+	}
+	
+	/*                          */
+}
+
+@media screen and (min-width: 992px) {
+	.about_page .title_about {
+		font-size: 2vw !important;
+	}
+	
+	.about_page .img_about {
+		width: 14vw;
+	}
+	
+	.about_page .description_about {
+		font-size: 1.1vw;
+	}
+	
+	.line {
+		margin-top: -13px;
+		font-family: 'Quattrocento Sans', sans-serif
+	}
+}

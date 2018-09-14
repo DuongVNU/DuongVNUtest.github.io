@@ -1,0 +1,112 @@
+@import "./../responsive/home_res.css";
+@font-face {
+	font-family: vani;
+	src: url(./../font/Vani.ttf);
+}
+
+.home_page img{
+	max-width: 100%;
+	position: relative;
+}
+
+.home_page .nav-link {
+	color: #ffffff;
+	font-family: 'Quattrocento Sans', sans-serif;
+	height: 5vw;
+	font-size: 1.56vw;
+	
+}
+
+.home_page .nav-link:hover {
+	color: #000000;
+	background-color: #85736c;
+	transition: 0.5s;
+}
+
+.home_page .nav_home {
+	background-color: rgba(0, 0, 0, 0.25);
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	max-width: 100%;
+}
+
+.home_page .justify-content-center {
+	line-height: 4.27vw;
+	height: 4.27vw;
+}
+
+.home_page .title_home {
+	font-family: vani, serif;
+	font-size: 3.47vw;
+	font-weight: 700;
+	width: 245px;
+	margin-bottom: 2.4vw;
+	line-height: 5.8vw;
+}
+
+.home_page .button_home {
+	background-color: rgba(177, 177, 177, 0);
+	padding: 1.5vw 1.2vw;
+	color: #ffffff;
+	border-shadow: none;
+	border: 2px solid #985336;
+	outline: none;
+	font-size: 1.5vw;
+}
+.home_page .button_home:hover {
+	background-color: #985336;
+	transition: 0.2s;
+}
+.home_page .element {
+	position: absolute;
+	left: 22vw;
+	top: 17.2vw;
+	
+}
+
+.home_page .left_home {
+	background-color: rgba(177, 177, 177, 0);
+	width: 4.26vw;
+	height: 4.26vw;
+	border: 2px solid #985336;
+	color: #985336;
+	padding: 1.2vw;
+	font-weight: bold;
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1.5vw;
+	border-radius: 100%;
+	position: absolute;
+	left: -19.5vw;
+	top: 9vw;
+}
+.home_page .right_home {
+	background-color: rgba(177, 177, 177, 0);
+	width: 4.26vw;
+	height: 4.26vw;
+	border: 2px solid #985336;
+	color: #985336;
+	padding: 1.2vw;
+	font-weight: bold;
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1.5vw;
+	border-radius: 100%;
+	position: absolute;
+	left: 71.5vw;
+	top: 9vw;
+}
+
+.home_page .left_home:hover, .home_page .right_home:hover {
+	background-color: #985336;
+	color: #ffffff;
+	transition: 0.3s;
+	cursor: pointer;
+}
+

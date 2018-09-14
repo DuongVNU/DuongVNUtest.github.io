@@ -1,0 +1,33 @@
+@import "./../responsive/make_an_appointment_res.css";
+
+.make_appoint .description {
+	color: #c0c0c0;
+}
+
+.make_appoint .form-control, .form-control:focus {
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid #ced4da;
+	box-shadow: none;
+	transition: none;
+	width: 98%;
+}
+
+.make_appoint div .col-sm {
+	width: 336px !important;
+}
+
+.make_appoint .button_appoint {
+	background-color: rgba(177, 177, 177, 0);
+	padding: 11px 3px;
+	color: #ffffff;
+	border-shadow: none;
+	border: 2px solid #985336;
+	outline: none;
+	font-size: 16px;
+}
+.make_appoint .button_appoint :hover {
+	background-color: #985336;
+	transition: 0.2s;
+}

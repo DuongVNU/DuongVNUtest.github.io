@@ -1,0 +1,31 @@
+@media (max-width: 576px) {
+	.footer .col-12 {
+		margin-bottom: 15%;
+		margin-left: 15%;
+		max-width: 75%;
+	}
+}
+
+@media (min-width: 576px) {
+	.footer .col-sm-6 {
+		margin-bottom: 16%;
+	}
+}
+
+@media (min-width: 768px) {
+	.footer .input {
+		width: 69%;
+	}
+}
+
+@media (min-width: 992px) {
+	.footer .input {
+		width: 78%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.footer .input {
+		width: 82%;
+	}
+}

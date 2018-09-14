@@ -1,0 +1,15 @@
+@import "./../responsive/footer_res.css";
+
+.footer{
+	background-image: url("./../images/footer.png");
+}
+.footer button{
+	background-color: #985336;
+	outline: none;
+	text-align: center;
+}
+
+.footer .input {
+	height: 43px;
+	border: none;
+}

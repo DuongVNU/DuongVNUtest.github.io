@@ -1,0 +1,69 @@
+@media (max-width: 576px) {
+	.make_appoint .col-12 {
+		max-width: 70%;
+		margin-bottom: 20px;
+		margin-left: 15%;
+	}
+	.make_appoint div .row {
+		margin-top: 3px;
+	}
+	.make_appoint .button_appoint {
+		margin-left: 16%;
+	}
+	
+	
+}
+
+@media (min-width: 576px) {
+	.make_appoint .col-sm-6 {
+		max-width: 40%;
+	}
+	.make_appoint .button_appoint {
+		margin-left: 10%;
+	}
+	
+	.make_appoint div .row {
+		margin-top: -20px;
+	}
+}
+
+@media (min-width: 768px) {
+	.make_appoint .button_appoint {
+		margin-left: 18%;
+	}
+	.make_appoint div .row {
+		margin-top: -20px;
+	}
+}
+
+@media (min-width: 992px) {
+	.make_appoint .col-sm-6 {
+		max-width: 40%;
+	}
+	
+	.make_appoint .button_appoint {
+		margin-left: 18%;
+	}
+	.make_appoint div .row {
+		margin-top: -20px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.make_appoint .col-lg-4 {
+		flex: 0 0 32.333333%;
+		max-width: 21.333333%;
+	}
+	
+	.make_appoint div .row {
+		margin-top: -20px;
+	}
+	
+	.make_appoint div .row {
+		margin-top: 5px;
+	}
+	
+	.make_appoint .button_appoint {
+		margin-left: 29%;
+	}
+}
